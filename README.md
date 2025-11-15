@@ -22,7 +22,7 @@ Then pull the model:
 ## 2. Clone the Repository
 
     git clone https://github.com/PRM710/BR_LLM.git
-    cd BR_LLM
+    cd AmbedkarGPT-Intern-Task
 
 ------------------------------------------------------------------------
 
@@ -88,7 +88,7 @@ API will start at:
 
 ## 6. Frontend Setup (React)
 
-### ▶ Step 1 --- Go To Root Folder BR_LLM then open terminal to go to frontend
+### ▶ Step 1 --- Go To Root Folder AmbedkarGPT-Intern-Task then open terminal to go to frontend
 
     cd ambedkar-qa
 
