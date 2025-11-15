@@ -6,7 +6,7 @@ to create a fully local RAG-based Q&A system.
 
 ------------------------------------------------------------------------
 
-## ✅ 1. Install Ollama & Pull Mistral Model
+## 1. Install Ollama & Pull Mistral Model
 
 Make sure **Ollama** is installed.
 
@@ -16,14 +16,14 @@ Then pull the model:
 
 ------------------------------------------------------------------------
 
-## ✅ 2. Clone the Repository
+## 2. Clone the Repository
 
     git clone https://github.com/PRM710/BR_LLM.git
     cd BR_LLM
 
 ------------------------------------------------------------------------
 
-## ✅ 3. Backend Setup
+## 3. Backend Setup
 
 ### ▶ Step 1 --- Enter Backend Folder
 
@@ -45,7 +45,7 @@ Then pull the model:
 
 ------------------------------------------------------------------------
 
-## ✅ 4. Install Python Dependencies (Exact Versions)
+## 4. Install Python Dependencies (Exact Versions)
 
 Install **in this exact order**:
 
@@ -56,10 +56,11 @@ Install **in this exact order**:
     pip install sentence-transformers
     pip install ollama
     pip install faiss-cpu
+    pip install fastapi
 
 ------------------------------------------------------------------------
 
-## ✅ 5. Run the Backend
+## 5. Run the Backend
 
 ### ▶ Run using Python only (simple mode)
 
@@ -75,11 +76,11 @@ API will start at:
 
 ------------------------------------------------------------------------
 
-## ✅ 6. Frontend Setup (React)
+## 6. Frontend Setup (React)
 
 ### ▶ Step 1 --- Enter frontend folder
 
-    cd frontend
+    cd ambedkar-qa
 
 ### ▶ Step 2 --- Install dependencies
 
@@ -96,7 +97,7 @@ Frontend will run on:
 
 ------------------------------------------------------------------------
 
-## 🚀 API Endpoint
+##  API Endpoint
 
 Send questions to:
 
@@ -110,7 +111,4 @@ Body:
 
 ------------------------------------------------------------------------
 
-## 🎉 You're Ready!
-
-Your full RAG system (Backend + Frontend + Ollama Mistral) is now
-running locally.
+DONE!
