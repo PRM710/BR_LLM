@@ -3,7 +3,8 @@
 ⭐ **This project uses LangChain + ChromaDB + FAISS + Ollama (Mistral 7B) to create a fully local RAG-based Q&A system.**
 
 ⭐ **Make sure Ollama is already installed on your device.**  
-If not, download it from the official website before running this project.
+If not, download it from the official website: https://ollama.com/download
+
 
 
 ------------------------------------------------------------------------
