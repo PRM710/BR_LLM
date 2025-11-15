@@ -5,7 +5,7 @@
 ⭐ **Make sure Ollama is already installed on your device.**  
 If not, download it from the official website: https://ollama.com/download
 
-** PLEASE RUN EXACTLY LINE BY LINE EVERYTHING FOR IT TO WORK !! **
+**PLEASE RUN EXACTLY LINE BY LINE EVERYTHING FOR IT TO WORK !!**
 
 ------------------------------------------------------------------------
 
