@@ -51,7 +51,7 @@ Then pull the model:
 ## 4. Install Python Dependencies (Exact Versions)
 
 ⚠️ **Please install these packages ONE BY ONE.  
-Do NOT copy-paste all together.  
+DO NOT COPY-PASTE ALL TOGETHER.  
 If even one dependency fails, the entire project will not work.**
 
 Run each line separately:
