@@ -17,8 +17,8 @@ Then pull the Mistral model:
 
 ## ✅ 2. Clone the Repository
 
-    git clone <your-repo-url>
-    cd <repo-name>
+    git clone https://github.com/PRM710/BR_LLM.git
+    cd BR_LLM
 
 ------------------------------------------------------------------------
 
