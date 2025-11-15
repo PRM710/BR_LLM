@@ -81,7 +81,7 @@ API will start at:
 
 ## 6. Frontend Setup (React)
 
-### ▶ Step 1 --- Enter frontend folder
+### ▶ Step 1 --- Go To Root Folder BR_LLM then open terminal to go to frontend
 
     cd ambedkar-qa
 
