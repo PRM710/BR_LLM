@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./QASystem.css";
 
 export default function QASystem() {
   const [question, setQuestion] = useState("");
@@ -26,52 +27,25 @@ export default function QASystem() {
   };
 
   return (
-    <div style={{ maxWidth: "700px", margin: "40px auto", padding: "20px" }}>
-      <h1 style={{ fontSize: "32px", marginBottom: "20px" }}>
-        Ambedkar Q&A System
-      </h1>
+    <div className="qa-container">
+      <h1 className="qa-title">Ambedkar Q&A System</h1>
 
       <textarea
+        className="qa-input"
         rows="3"
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
         placeholder="Ask any question from the speech..."
-        style={{
-          width: "100%",
-          padding: "12px",
-          fontSize: "16px",
-          borderRadius: "6px",
-          border: "1px solid #ccc",
-          marginBottom: "12px"
-        }}
       />
 
-      <button
-        onClick={ask}
-        style={{
-          padding: "12px 20px",
-          fontSize: "16px",
-          borderRadius: "6px",
-          cursor: "pointer",
-          background: "black",
-          color: "white",
-          marginBottom: "20px",
-        }}
-      >
+      <button className="qa-button" onClick={ask}>
         Ask
       </button>
 
-      {loading && <p>Thinking...</p>}
+      {loading && <p className="qa-loading">Thinking...</p>}
 
       {answer && (
-        <div
-          style={{
-            background: "#f0f0f0",
-            padding: "15px",
-            borderRadius: "6px",
-            fontSize: "18px"
-          }}
-        >
+        <div className="qa-answer">
           <strong>Answer:</strong>
           <p>{answer}</p>
         </div>
